@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to Google Fonts -->https://github.com/alkinalkan/dice-game/blob/main/dicee.html
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+<body>
+  <!-- Main container -->
+  <div class="container">
+    <h1>Refresh Me</h1>
 
-  </head>
-  <body>
-
-    <div class="container">
-      <h1>Refresh Me</h1>
-
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="images/dice6.png">
-      </div>
-
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="images/dice6.png">
-      </div>
-
-      <div class="buttonContainer">
-      <button class="button" onClick="window.location.reload();">Refresh Page</button>
-      </div>
-
+    <!-- Dice for Player 1 -->
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="images/dice6.png">
     </div>
 
-    <script src="index.js" charset="utf-8"></script>
+    <!-- Dice for Player 2 -->
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="images/dice6.png">
+    </div>
 
-      </body>
+    <!-- Button to refresh the page -->
+    <div class="buttonContainer">
+      <button class="button" onClick="window.location.reload();">Refresh Page</button>
+    </div>
+  </div>
 
-      <footer>
-        🎲 Dice Game 🎲
-      </footer>
-    </html>
+  <!-- JavaScript file -->
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+<footer>
+  🎲 Dice Game 🎲
+</footer>
+</html>
