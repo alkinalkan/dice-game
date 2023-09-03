@@ -1,58 +1,65 @@
+/* Define styles for a container element */
 .container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+  width: 70%; /* Set container width to 70% of its parent element */
+  margin: auto; /* Center the container horizontally */
+  text-align: center; /* Center text content within the container */
 }
 
-.buttonContainer{
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 5%;
+/* Define styles for a container for buttons */
+.buttonContainer {
+  text-align: center; /* Center text content within the button container */
+  font-size: 2rem; /* Set the font size for buttons to 2rem */
+  margin-top: 5%; /* Add margin space on top of the button container */
 }
 
-
+/* Define styles for buttons */
 .button {
-background-color: #4CAF50; /* Green */
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
+  background-color: #4CAF50; /* Set button background color to green */
+  border: none; /* Remove button border */
+  color: white; /* Set text color to white */
+  padding: 15px 32px; /* Set padding for the button */
+  text-align: center; /* Center text content within the button */
+  text-decoration: none; /* Remove underlines from anchor-like buttons */
+  display: inline-block; /* Make buttons display inline */
+  font-size: 16px; /* Set button text font size to 16px */
 }
+
+/* Define styles for dice elements */
 .dice {
-  text-align: center;
-  display: inline-block;
-
+  text-align: center; /* Center text content within the dice element */
+  display: inline-block; /* Make dice elements display inline */
 }
 
+/* Define styles for the body of the page */
 body {
-  background-color: #eba01e;
+  background-color: #eba01e; /* Set the background color of the body */
 }
 
+/* Define styles for the heading element */
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 5rem;
-  color: #ffffff;
+  margin: 30px; /* Add margin space around the heading */
+  font-family: 'Lobster', cursive; /* Set the font family for the heading */
+  text-shadow: 5px 0 #232931; /* Add a text shadow to the heading */
+  font-size: 5rem; /* Set the font size for the heading to 5rem */
+  color: #ffffff; /* Set the text color of the heading to white */
 }
 
+/* Define styles for paragraph elements */
 p {
-  font-size: 2rem;
-  color: #ffffff;
-  font-family: 'Indie Flower', cursive;
+  font-size: 2rem; /* Set the font size for paragraphs to 2rem */
+  color: #ffffff; /* Set the text color of paragraphs to white */
+  font-family: 'Indie Flower', cursive; /* Set the font family for paragraphs */
 }
 
+/* Define styles for images */
 img {
-  width: 80%;
+  width: 80%; /* Set the width of images to 80% */
 }
 
+/* Define styles for the footer element */
 footer {
-  margin-top: 2%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  margin-top: 2%; /* Add margin space on top of the footer */
+  color: #EEEEEE; /* Set the text color of the footer to light gray */
+  text-align: center; /* Center text content within the footer */
+  font-family: 'Indie Flower', cursive; /* Set the font family for the footer */
 }
